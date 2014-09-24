@@ -1,0 +1,12 @@
+bark_mtr := monotonic_mtr &
+[ INPUT.RELS < [ PRED "_bark_v_1_rel" ] >,
+  OUTPUT.RELS < +copy+ & [ PRED "_menggonggong_v_rel" ] > ].
+
+dog_mtr := monotonic_mtr &
+[ INPUT.RELS < [ PRED "_dog_n_1_rel" ] >,
+  OUTPUT.RELS < +copy+ & [ PRED "_anjing_n_rel" ] > ].
+
+udef_mtr := monotonic_mtr &
+[ INPUT.RELS < [ PRED _the_q_rel ] >,
+  OUTPUT.RELS < [ PRED "exist_q_rel" ] > ].
+

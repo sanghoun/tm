@@ -1,0 +1,11 @@
+:begin :type.
+:include "../../mrs.tdl".
+:include "../../mtr.tdl".
+:include "../../predicates.tdl".
+:include "../../predicates.erg.tdl".
+:include "../types.tdl".
+:end :type.
+
+:begin :instance :status rule.
+:include "../test.mtr".
+:end :instance.

@@ -1,0 +1,17 @@
+TENSE : E.TENSE
+  * >> *
+
+NUM : PNG.NUM
+  * >> *
+
+;PERSON : PERSON
+;  * >> *
+
+;NUMBER : NUMBER
+;  * >> *
+
+;GENDER : GENDER
+;  * >> *
+
+PNG : PNG
+  * >> *

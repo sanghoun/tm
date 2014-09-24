@@ -1,0 +1,7 @@
+[ LTOP: h0
+INDEX: e1 [ e SORT: semsort SF: prop-or-ques E.TENSE: present ]
+RELS: < [ "exist_q_rel"<-1:-1> LBL: h3 ARG0: x2 [ x SORT: semsort PERSON: 3rd NUMBER: sg GENDER: gender ] RSTR: h4 BODY: h5 ]
+ [ "_dog_n_rel"<-1:-1> LBL: h6 ARG0: x2 ]
+ [ "_bark_v_rel"<-1:-1> LBL: h7 ARG0: e1 ARG1: x2 ] >
+HCONS: < h4 qeq h6 >
+ICONS: < e1 focus x2 e1 info-str e1 > ]

@@ -1,0 +1,7 @@
+semsort := u.
+tense := top.
+present := tense.
+prop-or-ques := sforce.
+i :+ [ SORT semsort, PERSON person, NUMBER number ].
+3rd := person.
+x :+ [ GENDER gender ].

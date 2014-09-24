@@ -1,0 +1,8 @@
+TENSE : ASPECT
+  past >> perfective
+
+SF : SF
+  * >> *
+
+PERS : PERS
+  * >> !

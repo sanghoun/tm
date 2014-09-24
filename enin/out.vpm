@@ -1,0 +1,9 @@
+SF : SF
+  prop >> prop-or-ques
+
+TENSE : ASPECT
+  past >> perf
+
+PERS NUM : PNG.PERNUM
+  * * >> pernum
+

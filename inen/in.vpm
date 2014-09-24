@@ -1,0 +1,5 @@
+ASPECT : TENSE
+  perf >> past
+
+PNG.PERNUM : PERS NUM
+  * >> 3 sg

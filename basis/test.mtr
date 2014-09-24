@@ -1,0 +1,11 @@
+;cat_tmp_rule := monotonic_mtr &
+;[ INPUT.RELS < [ PRED "_cat_n_rel" ] >,
+;  OUTPUT.RELS < +copy+ & [ PRED "_tmp_n_rel" ] > ].
+
+;dog_cat_rule := monotonic_mtr &
+;[ INPUT.RELS < [ PRED "_dog_n_rel" ] >,
+;  OUTPUT.RELS < +copy+ & [ PRED "_cat_n_rel" ] > ].
+
+;tmp_dog_rule := monotonic_mtr &
+;[ INPUT.RELS < [ PRED "_tmp_n_rel" ] >,
+;  OUTPUT.RELS < +copy+ & [ PRED "_dog_n_rel" ] > ].

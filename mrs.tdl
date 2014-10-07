@@ -80,6 +80,7 @@ aspect := top.
 prog := aspect.
 no-aspect := aspect.
 perfective := aspect.
+imperfective := aspect.
 
 mood := top.
 indicative := mood.

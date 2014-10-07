@@ -1,0 +1,14 @@
+ASPECT : E.ASPECT
+  * >> *
+
+SF : SF
+  * >> *
+
+PERS : PNG.PERNUM
+  * >> pernum
+
+PERS : PNG.GENDER
+  * >> gender
+
+PERS : PNG.ANIMACY
+  * >> animacy

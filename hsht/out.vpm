@@ -1,0 +1,6 @@
+ASPECT : E.ASPECT
+  imperfective >> !
+  * >> *
+
+PERS : PNG.PERNUM
+  * >> pernum

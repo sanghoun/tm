@@ -46,7 +46,7 @@ h := p.
 
 e := i & 
 [ TENSE tense, ASPECT aspect, MOOD mood, 
-  PERF luk, PROG luk, SF sforce ].
+  PERF luk, PROG luk ].
 
 x := i & p & 
 [ PERS person, NUM number,
@@ -100,9 +100,11 @@ na := luk.
 - := bool.
 
 sforce := top.
-prop := sforce.
-ques := sforce.
+prop-or-ques := sforce.
+prop := prop-or-ques.
+ques := prop-or-ques.
 comm := sforce.
+
 
 person := top.
 1-or-2 := person.
@@ -120,6 +122,7 @@ number := top.
 sg := number.
 pl := number.
 no_number := number.
+
 
 gender := top.
 m-or-f := gender.

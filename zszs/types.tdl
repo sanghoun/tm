@@ -1,0 +1,14 @@
+semsort := u.
+tense := top.
+present := tense.
+prop-or-ques := sforce.
+
+animacy := top.
+human := animacy.
+non-human := animacy.
+animate := non-human.
+inanimate := non-human.
+
+i :+ [ SORT semsort, SF sforce ].
+x :+ [ GENDER gender, ANIMACY animacy, SPECI bool, COG-ST cog-st ].
+

@@ -1,0 +1,11 @@
+intensifier_rule_1 := monotonic_mtr &
+[ INPUT.RELS < [ PRED "redup_x_rel" ] >,
+  OUTPUT.RELS < +copy+ & [ PRED intensifier_x_rel ] > ].
+
+intensifier_rule_2 := monotonic_mtr &
+[ INPUT.RELS < [ PRED "_hen_x_rel" ] >,
+  OUTPUT.RELS < +copy+ & [ PRED intensifier_x_rel ] > ].
+
+intensifier_rule_3 := monotonic_mtr &
+[ INPUT.RELS < [ PRED "_feichang_x_rel" ] >,
+  OUTPUT.RELS < +copy+ & [ PRED intensifier_x_rel ] > ].

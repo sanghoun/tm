@@ -1,0 +1,31 @@
+E.ASPECT : ASPECT
+  * >> *
+
+PNG.PERNUM : PERS NUM
+  sg >> ! sg
+  pl >> ! pl
+  1st >> 1 !
+  2nd >> 2 !
+  3rd >> 3 !
+  1sg >> 1 sg
+  2sg >> 2 sg
+  3sg >> 3 sg
+  1pl >> 1 pl
+  2pl >> 2 pl
+  3pl >> 3 pl
+
+PNG.GENDER : GEND
+  * >> *
+
+PNG.ANIMACY : ANIMACY
+  * >> *
+
+SPECI : SPECI
+  * >> *
+
+COG-ST : COG-ST
+  * >> *
+
+SF : SF
+  * >> *
+

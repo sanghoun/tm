@@ -4,6 +4,8 @@
 ;;; interlingual relation types, valid for all language pair (we think :-)
 ;;;
 
+intensifier_x_rel := predsort.
+
 message_m_rel := predsort.
 imp_m_rel := message_m_rel.
 prop-or-ques_m_rel := message_m_rel.
